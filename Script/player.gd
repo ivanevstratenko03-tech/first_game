@@ -4,8 +4,8 @@ extends CharacterBody2D
 enum State { IDLE, RUN, JUMP, FALL }
 
 # Скорость движения и сила прыжка
-const SPEED: float = 250.0
-const JUMP_VELOCITY: float = -400.0
+const SPEED: float = 300.0
+const JUMP_VELOCITY: float = -600.0
 
 # Гравитация
 var gravity: float = ProjectSettings.get_setting("physics/2d/default_gravity")

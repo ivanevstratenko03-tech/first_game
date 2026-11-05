@@ -7,8 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://cu61l3w088xq4" path="res://assets/Colour1/Outline/120x80_PNGSheets/_Run.png" id="5_8erm5"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vqghn"]
-radius = 49.0
-height = 172.0
+radius = 9.0
+height = 32.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tx1dd"]
 atlas = ExtResource("2_fkybt")
@@ -205,12 +205,12 @@ animations = [{
 script = ExtResource("1_cvnsp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=313620252]
-position = Vector2(-1, -20)
+position = Vector2(0, -14)
 shape = SubResource("CapsuleShape2D_vqghn")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1715446814]
-position = Vector2(20, -90)
-scale = Vector2(3.8828127, 3.8828127)
+position = Vector2(4, -29.000002)
+scale = Vector2(0.78320307, 0.7832031)
 sprite_frames = SubResource("SpriteFrames_1rmxe")
 animation = &"idle"
 autoplay = "idle"
