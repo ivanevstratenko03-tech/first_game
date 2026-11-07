@@ -201,8 +201,10 @@ animations = [{
 "speed": 11.0
 }]
 
-[node name="Player" type="CharacterBody2D" unique_id=86466676]
+[node name="Player" type="CharacterBody2D" unique_id=86466676 node_paths=PackedStringArray("animated_sprite")]
+collision_layer = 2
 script = ExtResource("1_cvnsp")
+animated_sprite = NodePath("AnimatedSprite2D")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=313620252]
 position = Vector2(0, -14)
