@@ -194,19 +194,23 @@ texture = ExtResource("2_5a7ea")
 3:1/0/terrain = 0
 3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, 8, -8, 8, 8)
 3:1/0/terrains_peering_bit/right_side = 0
+3:1/0/terrains_peering_bit/bottom_right_corner = 0
 3:1/0/terrains_peering_bit/bottom_side = 0
 4:1/0 = 0
 4:1/0/terrain_set = 0
 4:1/0/terrain = 0
 4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, 8, -8, 8, 8)
 4:1/0/terrains_peering_bit/right_side = 0
+4:1/0/terrains_peering_bit/bottom_right_corner = 0
 4:1/0/terrains_peering_bit/bottom_side = 0
+4:1/0/terrains_peering_bit/bottom_left_corner = 0
 4:1/0/terrains_peering_bit/left_side = 0
 5:1/0 = 0
 5:1/0/terrain_set = 0
 5:1/0/terrain = 0
 5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, 8, -8, 8, 8)
 5:1/0/terrains_peering_bit/bottom_side = 0
+5:1/0/terrains_peering_bit/bottom_left_corner = 0
 5:1/0/terrains_peering_bit/left_side = 0
 6:1/0 = 0
 7:1/0 = 0
@@ -224,22 +228,30 @@ texture = ExtResource("2_5a7ea")
 3:2/0/terrain = 0
 3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, 8, -8, 8, 8)
 3:2/0/terrains_peering_bit/right_side = 0
+3:2/0/terrains_peering_bit/bottom_right_corner = 0
 3:2/0/terrains_peering_bit/bottom_side = 0
 3:2/0/terrains_peering_bit/top_side = 0
+3:2/0/terrains_peering_bit/top_right_corner = 0
 4:2/0 = 0
 4:2/0/terrain_set = 0
 4:2/0/terrain = 0
 4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, 8, -8, 8, 8)
 4:2/0/terrains_peering_bit/right_side = 0
+4:2/0/terrains_peering_bit/bottom_right_corner = 0
 4:2/0/terrains_peering_bit/bottom_side = 0
+4:2/0/terrains_peering_bit/bottom_left_corner = 0
 4:2/0/terrains_peering_bit/left_side = 0
+4:2/0/terrains_peering_bit/top_left_corner = 0
 4:2/0/terrains_peering_bit/top_side = 0
+4:2/0/terrains_peering_bit/top_right_corner = 0
 5:2/0 = 0
 5:2/0/terrain_set = 0
 5:2/0/terrain = 0
 5:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, 8, -8, 8, 8)
 5:2/0/terrains_peering_bit/bottom_side = 0
+5:2/0/terrains_peering_bit/bottom_left_corner = 0
 5:2/0/terrains_peering_bit/left_side = 0
+5:2/0/terrains_peering_bit/top_left_corner = 0
 5:2/0/terrains_peering_bit/top_side = 0
 6:2/0 = 0
 7:2/0 = 0
@@ -258,18 +270,22 @@ texture = ExtResource("2_5a7ea")
 3:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, 8, -8, 8, 8)
 3:3/0/terrains_peering_bit/right_side = 0
 3:3/0/terrains_peering_bit/top_side = 0
+3:3/0/terrains_peering_bit/top_right_corner = 0
 4:3/0 = 0
 4:3/0/terrain_set = 0
 4:3/0/terrain = 0
 4:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, 8, -8, 8, 8)
 4:3/0/terrains_peering_bit/right_side = 0
 4:3/0/terrains_peering_bit/left_side = 0
+4:3/0/terrains_peering_bit/top_left_corner = 0
 4:3/0/terrains_peering_bit/top_side = 0
+4:3/0/terrains_peering_bit/top_right_corner = 0
 5:3/0 = 0
 5:3/0/terrain_set = 0
 5:3/0/terrain = 0
 5:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, 8, -8, 8, 8)
 5:3/0/terrains_peering_bit/left_side = 0
+5:3/0/terrains_peering_bit/top_left_corner = 0
 5:3/0/terrains_peering_bit/top_side = 0
 6:3/0 = 0
 7:3/0 = 0
@@ -281,29 +297,23 @@ texture = ExtResource("2_5a7ea")
 2:4/0 = 0
 3:4/0 = 0
 3:4/0/terrain_set = 0
-3:4/0/terrain = 1
+3:4/0/terrain = 0
 3:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:4/0/physics_layer_0/polygon_0/one_way = true
-3:4/0/terrains_peering_bit/right_side = 1
-3:4/0/terrains_peering_bit/bottom_side = 1
-3:4/0/terrains_peering_bit/top_side = 1
+3:4/0/terrains_peering_bit/right_side = 0
 4:4/0 = 0
 4:4/0/terrain_set = 0
-4:4/0/terrain = 1
+4:4/0/terrain = 0
 4:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 4:4/0/physics_layer_0/polygon_0/one_way = true
-4:4/0/terrains_peering_bit/right_side = 1
-4:4/0/terrains_peering_bit/bottom_side = 1
-4:4/0/terrains_peering_bit/left_side = 1
-4:4/0/terrains_peering_bit/top_side = 1
+4:4/0/terrains_peering_bit/right_side = 0
+4:4/0/terrains_peering_bit/left_side = 0
 5:4/0 = 0
 5:4/0/terrain_set = 0
-5:4/0/terrain = 1
+5:4/0/terrain = 0
 5:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:4/0/physics_layer_0/polygon_0/one_way = true
-5:4/0/terrains_peering_bit/bottom_side = 1
-5:4/0/terrains_peering_bit/left_side = 1
-5:4/0/terrains_peering_bit/top_side = 1
+5:4/0/terrains_peering_bit/left_side = 0
 6:4/0 = 0
 0:5/0 = 0
 1:5/0 = 0
@@ -340,8 +350,13 @@ texture = ExtResource("2_5a7ea")
 11:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 0:7/0 = 0
 1:7/0 = 0
+1:7/0/terrain_set = 0
+1:7/0/terrain = 0
 1:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:7/0/terrains_peering_bit/bottom_side = 0
 2:7/0 = 0
+2:7/0/terrain_set = 0
+2:7/0/terrain = 0
 2:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:7/0 = 0
 4:7/0 = 0
@@ -356,7 +371,11 @@ texture = ExtResource("2_5a7ea")
 11:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 0:8/0 = 0
 1:8/0 = 0
+1:8/0/terrain_set = 0
+1:8/0/terrain = 0
 1:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:8/0/terrains_peering_bit/bottom_side = 0
+1:8/0/terrains_peering_bit/top_side = 0
 3:8/0 = 0
 4:8/0 = 0
 5:8/0 = 0
@@ -370,7 +389,10 @@ texture = ExtResource("2_5a7ea")
 11:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 0:9/0 = 0
 1:9/0 = 0
+1:9/0/terrain_set = 0
+1:9/0/terrain = 0
 1:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:9/0/terrains_peering_bit/top_side = 0
 3:9/0 = 0
 4:9/0 = 0
 5:9/0 = 0
@@ -403,11 +425,9 @@ texture = ExtResource("2_5a7ea")
 
 [sub_resource type="TileSet" id="TileSet_1rmxe"]
 physics_layer_0/collision_layer = 1
-terrain_set_0/mode = 2
+terrain_set_0/mode = 0
 terrain_set_0/terrain_0/name = "Terrain 0"
 terrain_set_0/terrain_0/color = Color(0.7103564, 0, 0.32568467, 1)
-terrain_set_0/terrain_1/name = "Terrain 1"
-terrain_set_0/terrain_1/color = Color(0, 0.5155441, 0.46236426, 1)
 sources/0 = SubResource("TileSetAtlasSource_8j60k")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kn0ld"]
@@ -585,98 +605,108 @@ tile_set = SubResource("TileSet_go701")
 
 [node name="objects" type="Node2D" parent="." unique_id=1693027227]
 
-[node name="Coin4" parent="objects" unique_id=611482176 instance=ExtResource("5_fo5ed")]
-position = Vector2(-144, 552)
+[node name="coins" type="Node2D" parent="objects" unique_id=700788012]
 
-[node name="Coin3" parent="objects" unique_id=539554784 instance=ExtResource("5_fo5ed")]
-position = Vector2(-184, 528)
-
-[node name="Spikes" parent="objects" unique_id=1733929109 instance=ExtResource("6_o06y3")]
-position = Vector2(-185, 584)
-
-[node name="Coin" parent="objects" unique_id=1372842396 instance=ExtResource("5_fo5ed")]
-position = Vector2(-360, 696)
-
-[node name="Coin2" parent="objects" unique_id=931204837 instance=ExtResource("5_fo5ed")]
-position = Vector2(-584, 1248)
-
-[node name="Coin5" parent="objects" unique_id=714365746 instance=ExtResource("5_fo5ed")]
-position = Vector2(-48, 704)
-
-[node name="Door" parent="objects" unique_id=1165394971 instance=ExtResource("7_k7acu")]
-z_index = 1
-position = Vector2(193, 816)
-
-[node name="Coin6" parent="objects" unique_id=960686515 instance=ExtResource("5_fo5ed")]
-position = Vector2(256, 832)
-
-[node name="Coin7" parent="objects" unique_id=1116830797 instance=ExtResource("5_fo5ed")]
-position = Vector2(304, 832)
-
-[node name="Spikes2" parent="objects" unique_id=1554944035 instance=ExtResource("6_o06y3")]
-position = Vector2(392, 840)
-
-[node name="Spikes3" parent="objects" unique_id=1034179131 instance=ExtResource("6_o06y3")]
-position = Vector2(464, 840)
-
-[node name="Spikes4" parent="objects" unique_id=937315516 instance=ExtResource("6_o06y3")]
-position = Vector2(544, 840)
-
-[node name="Coin8" parent="objects" unique_id=929087302 instance=ExtResource("5_fo5ed")]
-position = Vector2(424, 832)
-
-[node name="Coin9" parent="objects" unique_id=158079851 instance=ExtResource("5_fo5ed")]
+[node name="Coin9" parent="objects/coins" unique_id=158079851 instance=ExtResource("5_fo5ed")]
 position = Vector2(504, 832)
 
-[node name="Coin10" parent="objects" unique_id=1704477759 instance=ExtResource("5_fo5ed")]
-position = Vector2(584, 832)
+[node name="Coin2" parent="objects/coins" unique_id=931204837 instance=ExtResource("5_fo5ed")]
+position = Vector2(-584, 1248)
 
-[node name="Coin11" parent="objects" unique_id=666650239 instance=ExtResource("5_fo5ed")]
-position = Vector2(680, 744)
-
-[node name="Coin12" parent="objects" unique_id=563837440 instance=ExtResource("5_fo5ed")]
-position = Vector2(680, 632)
-
-[node name="Coin13" parent="objects" unique_id=2143909045 instance=ExtResource("5_fo5ed")]
-position = Vector2(680, 504)
-
-[node name="Coin14" parent="objects" unique_id=1000195834 instance=ExtResource("5_fo5ed")]
-position = Vector2(680, 392)
-
-[node name="Coin15" parent="objects" unique_id=319254697 instance=ExtResource("5_fo5ed")]
+[node name="Coin15" parent="objects/coins" unique_id=319254697 instance=ExtResource("5_fo5ed")]
 position = Vector2(680, 280)
 
-[node name="Coin16" parent="objects" unique_id=844594187 instance=ExtResource("5_fo5ed")]
-position = Vector2(680, 168)
+[node name="Coin12" parent="objects/coins" unique_id=563837440 instance=ExtResource("5_fo5ed")]
+position = Vector2(680, 632)
 
-[node name="Spikes5" parent="objects" unique_id=1471067882 instance=ExtResource("6_o06y3")]
-position = Vector2(792, 136)
+[node name="Coin18" parent="objects/coins" unique_id=970053997 instance=ExtResource("5_fo5ed")]
+position = Vector2(1064, 120)
 
-[node name="Coin17" parent="objects" unique_id=1767256405 instance=ExtResource("5_fo5ed")]
+[node name="Coin17" parent="objects/coins" unique_id=1767256405 instance=ExtResource("5_fo5ed")]
 position = Vector2(792, 112)
 
-[node name="Door2" parent="objects" unique_id=1347757188 instance=ExtResource("7_k7acu")]
+[node name="Coin8" parent="objects/coins" unique_id=929087302 instance=ExtResource("5_fo5ed")]
+position = Vector2(424, 832)
+
+[node name="Coin16" parent="objects/coins" unique_id=844594187 instance=ExtResource("5_fo5ed")]
+position = Vector2(680, 168)
+
+[node name="Coin5" parent="objects/coins" unique_id=714365746 instance=ExtResource("5_fo5ed")]
+position = Vector2(-48, 704)
+
+[node name="Coin13" parent="objects/coins" unique_id=2143909045 instance=ExtResource("5_fo5ed")]
+position = Vector2(680, 504)
+
+[node name="Coin4" parent="objects/coins" unique_id=611482176 instance=ExtResource("5_fo5ed")]
+position = Vector2(-144, 552)
+
+[node name="Coin3" parent="objects/coins" unique_id=539554784 instance=ExtResource("5_fo5ed")]
+position = Vector2(-184, 528)
+
+[node name="Coin" parent="objects/coins" unique_id=1372842396 instance=ExtResource("5_fo5ed")]
+position = Vector2(-360, 696)
+
+[node name="Coin14" parent="objects/coins" unique_id=1000195834 instance=ExtResource("5_fo5ed")]
+position = Vector2(680, 392)
+
+[node name="Coin11" parent="objects/coins" unique_id=666650239 instance=ExtResource("5_fo5ed")]
+position = Vector2(680, 744)
+
+[node name="Coin6" parent="objects/coins" unique_id=960686515 instance=ExtResource("5_fo5ed")]
+position = Vector2(256, 832)
+
+[node name="Coin10" parent="objects/coins" unique_id=1704477759 instance=ExtResource("5_fo5ed")]
+position = Vector2(584, 832)
+
+[node name="Coin7" parent="objects/coins" unique_id=1116830797 instance=ExtResource("5_fo5ed")]
+position = Vector2(304, 832)
+
+[node name="spikes" type="Node2D" parent="objects" unique_id=709091829]
+
+[node name="Spikes" parent="objects/spikes" unique_id=1733929109 instance=ExtResource("6_o06y3")]
+position = Vector2(-185, 584)
+
+[node name="Spikes7" parent="objects/spikes" unique_id=1453041217 instance=ExtResource("6_o06y3")]
+position = Vector2(952, 136)
+
+[node name="Spikes6" parent="objects/spikes" unique_id=6032317 instance=ExtResource("6_o06y3")]
+position = Vector2(992, 136)
+
+[node name="Spikes5" parent="objects/spikes" unique_id=1471067882 instance=ExtResource("6_o06y3")]
+position = Vector2(792, 136)
+
+[node name="Spikes4" parent="objects/spikes" unique_id=937315516 instance=ExtResource("6_o06y3")]
+position = Vector2(544, 840)
+
+[node name="Spikes3" parent="objects/spikes" unique_id=1034179131 instance=ExtResource("6_o06y3")]
+position = Vector2(464, 840)
+
+[node name="Spikes2" parent="objects/spikes" unique_id=1554944035 instance=ExtResource("6_o06y3")]
+position = Vector2(392, 840)
+
+[node name="door" type="Node2D" parent="objects" unique_id=278525955]
+
+[node name="Door2" parent="objects/door" unique_id=1347757188 instance=ExtResource("7_k7acu")]
 z_index = 1
 position = Vector2(875, 111)
 
-[node name="Door3" parent="objects" unique_id=360525414 instance=ExtResource("7_k7acu")]
+[node name="Door3" parent="objects/door" unique_id=360525414 instance=ExtResource("7_k7acu")]
 z_index = 1
 position = Vector2(1467, 817)
 
-[node name="Spikes6" parent="objects" unique_id=6032317 instance=ExtResource("6_o06y3")]
-position = Vector2(992, 136)
+[node name="Door" parent="objects/door" unique_id=1165394971 instance=ExtResource("7_k7acu")]
+z_index = 1
+position = Vector2(193, 816)
 
-[node name="Spikes7" parent="objects" unique_id=1453041217 instance=ExtResource("6_o06y3")]
-position = Vector2(952, 136)
+[node name="chest" type="Node2D" parent="objects" unique_id=607524834]
 
-[node name="Coin18" parent="objects" unique_id=970053997 instance=ExtResource("5_fo5ed")]
-position = Vector2(1064, 120)
-
-[node name="Chest" parent="objects" unique_id=927051050 instance=ExtResource("8_k7acu")]
+[node name="Chest" parent="objects/chest" unique_id=927051050 instance=ExtResource("8_k7acu")]
 z_index = 1
 position = Vector2(1567, 837)
 
-[node name="Label" type="Label" parent="objects" unique_id=258338498]
+[node name="label" type="Node2D" parent="objects" unique_id=1240490606]
+
+[node name="Label" type="Label" parent="objects/label" unique_id=258338498]
 offset_left = -395.0
 offset_top = 608.0
 offset_right = -324.0

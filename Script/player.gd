@@ -1,26 +1,29 @@
-class_name Player
 extends CharacterBody2D
+class_name Player
 
 # Состояния персонажа
 enum State { IDLE, RUN, JUMP, FALL }
 
 # Скорость движения и сила прыжка
-@export var SPEED: float = 300.0
-@export var JUMP_VELOCITY: float = -600.0
+const SPEED: float = 250.0
+const JUMP_VELOCITY: float = -700.0
 
 # Гравитация
 var gravity: float = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 # Текущее состояние
-var current_state: State = State.IDLE
+@export var current_state: State = State.IDLE
 
 # Ссылка на анимированный спрайт
-@export var animated_sprite: AnimatedSprite2D 
+@export var animated_sprite: AnimatedSprite2D
 
-var coins: int = 0
+# Количество монет
+var coins: int = 1
+
 
 func _process(delta: float) -> void:
 	print(coins)
+
 
 # Главная функция движения
 func _physics_process(delta: float) -> void:
@@ -97,8 +100,3 @@ func play_animation() -> void:
 	elif not animated_sprite.is_playing():
 		if current_state == State.IDLE or current_state == State.RUN:
 			animated_sprite.play()
-	
-
-	
-		
-		
