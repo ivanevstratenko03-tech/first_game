@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wyjaddpo2w1t"
-path="res://.godot/imported/BGL3.png-db55d529519a9d6020d43e352f6a8054.ctex"
+uid="uid://c4m4su5f5wah4"
+path="res://.godot/imported/forest_moon.png-4d579e2a6d17c598ede448e7bc973bac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Background/BGL3.png"
-dest_files=["res://.godot/imported/BGL3.png-db55d529519a9d6020d43e352f6a8054.ctex"]
+source_file="res://assets/parallax/forest/forest_moon.png"
+dest_files=["res://.godot/imported/forest_moon.png-4d579e2a6d17c598ede448e7bc973bac.ctex"]
 
 [params]
 
