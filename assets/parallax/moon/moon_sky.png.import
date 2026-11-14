@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqliol0andmap"
-path="res://.godot/imported/BGL5.png-a05bff72c8de4894ebaaa8760585b76c.ctex"
+uid="uid://bjm25qio37vle"
+path="res://.godot/imported/moon_sky.png-ac2713aa35ffe3289de361df996a7f2f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Background/BGL5.png"
-dest_files=["res://.godot/imported/BGL5.png-a05bff72c8de4894ebaaa8760585b76c.ctex"]
+source_file="res://assets/parallax/moon/moon_sky.png"
+dest_files=["res://.godot/imported/moon_sky.png-ac2713aa35ffe3289de361df996a7f2f.ctex"]
 
 [params]
 

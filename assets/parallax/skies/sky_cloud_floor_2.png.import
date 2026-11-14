@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdwm618hgaktb"
-path="res://.godot/imported/GrassLand_Example.png-aeeffab837d262330b7c2920bb7e8be2.ctex"
+uid="uid://6xe6gdnrcuu1"
+path="res://.godot/imported/sky_cloud_floor_2.png-8c2ab3c2ffd433b1dab2b77e2bed8922.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Multi_Platformer_Tileset_Free/GrassLand/GrassLand_Example.png"
-dest_files=["res://.godot/imported/GrassLand_Example.png-aeeffab837d262330b7c2920bb7e8be2.ctex"]
+source_file="res://assets/parallax/skies/sky_cloud_floor_2.png"
+dest_files=["res://.godot/imported/sky_cloud_floor_2.png-8c2ab3c2ffd433b1dab2b77e2bed8922.ctex"]
 
 [params]
 
